@@ -10,27 +10,39 @@ body {
   border: 0;
   padding: 0; }
 
-p {
+h1 {
   font-family: "Graduate", cursive;
-  color: #fdffad; }
+  color: #fdffad;
+  text-align: center; }
+
+.photo1 {
+  width: 80vw;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/desert.jpg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .card1 {
   width: 100vw;
   height: 100vh;
   background-size: cover;
   background-position: center;
-  float: left;
-  background: orange; }
+  float: left; }
   .card1::after {
     content: "";
     background-image: url("../img/desert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: 1; }
+    z-index: -1; }
 
 .card2 {
   width: 100vw;

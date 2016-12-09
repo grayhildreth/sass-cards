@@ -10,24 +10,38 @@ body {
   padding: 0;
 }
 
-p {
+h1 {
   font-family: $header-font;
   color: $yellow;
+  text-align: center;
+}
+
+.photo1 {
+  width: 80vw;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/desert.jpg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .card1 {
   @include card-background;
-  background: orange;
+  // background: #F39B6D;
     &::after {
     content: "";
     background-image: url('../img/desert.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
   }
 }
 
