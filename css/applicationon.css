@@ -11,7 +11,8 @@ body {
   padding: 0; }
 
 p {
-  font-family: "Open Sans Condensed", sans-serif; }
+  font-family: "Graduate", cursive;
+  color: #fdffad; }
 
 .card1 {
   width: 100vw;
@@ -19,7 +20,17 @@ p {
   background-size: cover;
   background-position: center;
   float: left;
-  background-image: url("../img/desert.jpg"); }
+  background: orange; }
+  .card1::after {
+    content: "";
+    background-image: url("../img/desert.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1; }
 
 .card2 {
   width: 100vw;
