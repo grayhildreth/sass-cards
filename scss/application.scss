@@ -3,3 +3,29 @@
 @import "base/index";
 @import "layout/index";
 @import "components/index";
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.card1 {
+  @include card-background;
+  background-image: url('../img/desert.jpg');
+}
+
+.card2 {
+  @include card-background;
+  background-image: url('../img/city.jpg');
+}
+
+.card3 {
+  @include card-background;
+  background-image: url('../img/lake.jpg');
+}
+
+.card4 {
+  @include card-background;
+  background-image: url('../img/beach.jpg');
+}

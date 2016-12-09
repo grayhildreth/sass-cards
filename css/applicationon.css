@@ -4,4 +4,37 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body {
+  margin: 0;
+  border: 0;
+  padding: 0; }
+
+.card1 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/desert.jpg"); }
+
+.card2 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/city.jpg"); }
+
+.card3 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/lake.jpg"); }
+
+.card4 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/beach.jpg"); }
+
 /*# sourceMappingURL=applicationon.css.map */
