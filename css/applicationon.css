@@ -5,6 +5,24 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: "Graduate", cursive;
+  color: #fff;
+  font-size: 18px;
+  background: #F39B6D;
+  padding: 10px 20px 10px 20px;
+  border: solid #F27F41 3px;
+  text-decoration: none; }
+  button:hover {
+    background: #F39B6D;
+    background-color: #F39B6D;
+    background-image: -webkit-linear-gradient(#F39B6D, #F27F41);
+    background-image: linear-gradient(#F39B6D, #F27F41);
+    text-decoration: none; }
+
 body {
   margin: 0;
   border: 0;
@@ -42,6 +60,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid white;
   background-image: url("../img/desert.jpg"); }
 
 .card2 {
@@ -71,6 +90,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid white;
   background-image: url("../img/city.jpg"); }
 
 .card3 {
@@ -100,6 +120,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid white;
   background-image: url("../img/lake.jpg"); }
 
 .card4 {
@@ -129,6 +150,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid white;
   background-image: url("../img/beach.jpg"); }
 
 /*# sourceMappingURL=applicationon.css.map */

@@ -1,0 +1,17 @@
+button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: $header-font;
+  color: $white;
+  font-size: 18px;
+  background: $orange;
+  padding: 10px 20px 10px 20px;
+  border: solid $dark-orange 3px;
+  text-decoration: none;
+    &:hover {
+      background: $orange;
+      @include linear-gradient($orange, $dark-orange);
+      text-decoration: none;
+    }
+}
