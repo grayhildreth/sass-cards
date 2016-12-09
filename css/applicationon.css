@@ -15,25 +15,14 @@ h1 {
   color: #fdffad;
   text-align: center; }
 
-.photo1 {
-  width: 80vw;
-  height: 40vh;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/desert.jpg);
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
 .card1 {
   width: 100vw;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
+  display: block;
+  position: relative;
   float: left; }
   .card1::after {
     content: "";
-    background-image: url("../img/desert.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
@@ -42,30 +31,104 @@ h1 {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1; }
+    z-index: -1;
+    background-image: url("../img/desert.jpg"); }
+
+.photo1 {
+  width: 80vw;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/desert.jpg"); }
 
 .card2 {
   width: 100vw;
   height: 100vh;
+  display: block;
+  position: relative;
+  float: left; }
+  .card2::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../img/city.jpg"); }
+
+.photo2 {
+  width: 80vw;
+  height: 40vh;
   background-size: cover;
   background-position: center;
-  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url("../img/city.jpg"); }
 
 .card3 {
   width: 100vw;
   height: 100vh;
+  display: block;
+  position: relative;
+  float: left; }
+  .card3::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../img/lake.jpg"); }
+
+.photo3 {
+  width: 80vw;
+  height: 40vh;
   background-size: cover;
   background-position: center;
-  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url("../img/lake.jpg"); }
 
 .card4 {
   width: 100vw;
   height: 100vh;
+  display: block;
+  position: relative;
+  float: left; }
+  .card4::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../img/beach.jpg"); }
+
+.photo4 {
+  width: 80vw;
+  height: 40vh;
   background-size: cover;
   background-position: center;
-  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url("../img/beach.jpg"); }
 
 /*# sourceMappingURL=applicationon.css.map */
