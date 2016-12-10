@@ -16,10 +16,12 @@ h1 {
   @extend %header-format;
 }
 
-p {
-  font-family: $copy-font;
-  color: $white;
+.content {
   @extend %copy-format;
+  p {
+    font-family: $copy-font;
+    color: $white;
+  }
 }
 
 .card1 {
