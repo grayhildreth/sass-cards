@@ -13,7 +13,13 @@ body {
 h1 {
   font-family: $header-font;
   color: $yellow;
-  text-align: center;
+  @extend %header-format;
+}
+
+p {
+  font-family: $copy-font;
+  color: $white;
+  @extend %copy-format;
 }
 
 .card1 {
