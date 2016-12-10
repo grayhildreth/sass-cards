@@ -6,7 +6,8 @@ html {
   box-sizing: inherit; }
 
 h1 {
-  text-align: center; }
+  text-align: center;
+  font-size: 46px; }
 
 .content {
   margin: 2em 2em;
