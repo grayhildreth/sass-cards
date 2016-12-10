@@ -7,8 +7,9 @@ button {
   font-size: 18px;
   background: $orange;
   padding: 10px 20px 10px 20px;
-  border: solid $dark-orange 3px;
+  border: 3px solid darken($orange, 20%);
   text-decoration: none;
+  cursor: pointer;
     &:hover {
       background: $orange;
       @include linear-gradient($orange, $dark-orange);

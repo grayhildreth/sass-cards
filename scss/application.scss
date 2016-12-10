@@ -18,10 +18,10 @@ h1 {
 
 .card1 {
   @include card-background;
-  // background: #F39B6D;
+  // background: $orange;
     &::after {
       @include background-image;
-      background-image: url('../img/desert.jpg');
+      background-image: url('../img/desert2.jpg');
   }
 }
 
@@ -35,7 +35,7 @@ h1 {
   // background: #F39B6D;
     &::after {
       @include background-image;
-      background-image: url('../img/city.jpg');
+      background-image: url('../img/city2.jpg');
   }
 }
 
@@ -49,7 +49,7 @@ h1 {
   // background: #F39B6D;
     &::after {
       @include background-image;
-      background-image: url('../img/lake.jpg');
+      background-image: url('../img/lake2.jpg');
   }
 }
 
@@ -63,7 +63,7 @@ h1 {
   // background-color: #F39B6D;
     &::after {
       @include background-image;
-      background-image: url('../img/beach.jpg');
+      background-image: url('../img/beach2.jpg');
   }
 }
 

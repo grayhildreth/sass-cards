@@ -14,8 +14,9 @@ button {
   font-size: 18px;
   background: #F39B6D;
   padding: 10px 20px 10px 20px;
-  border: solid #F27F41 3px;
-  text-decoration: none; }
+  border: 3px solid #e75c13;
+  text-decoration: none;
+  cursor: pointer; }
   button:hover {
     background: #F39B6D;
     background-color: #F39B6D;
@@ -43,14 +44,13 @@ h1 {
     content: "";
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     z-index: -1;
-    background-image: url("../img/desert.jpg"); }
+    background-image: url("../img/desert2.jpg"); }
 
 .photo1 {
   width: 80vw;
@@ -73,14 +73,13 @@ h1 {
     content: "";
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     z-index: -1;
-    background-image: url("../img/city.jpg"); }
+    background-image: url("../img/city2.jpg"); }
 
 .photo2 {
   width: 80vw;
@@ -103,14 +102,13 @@ h1 {
     content: "";
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     z-index: -1;
-    background-image: url("../img/lake.jpg"); }
+    background-image: url("../img/lake2.jpg"); }
 
 .photo3 {
   width: 80vw;
@@ -133,14 +131,13 @@ h1 {
     content: "";
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     z-index: -1;
-    background-image: url("../img/beach.jpg"); }
+    background-image: url("../img/beach2.jpg"); }
 
 .photo4 {
   width: 80vw;
@@ -153,4 +150,4 @@ h1 {
   border: 3px solid white;
   background-image: url("../img/beach.jpg"); }
 
-/*# sourceMappingURL=applicationon.css.map */
+/*# sourceMappingURL=application.css.map */
