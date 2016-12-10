@@ -29,3 +29,14 @@
   margin-right: auto;
   border: 3px solid white;
 }
+
+@mixin row-large {
+  width: 100vw;
+  height:auto;
+}
+
+@mixin card-large {
+    width:50vw;
+    height: 100vh;
+    float: left;
+}

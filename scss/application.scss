@@ -79,3 +79,43 @@ h1 {
   @include card-image;
   background-image: url('../img/beach.jpg');
 }
+
+// media queries
+
+@media only screen and (min-width:$desktop) {
+  #first-row {
+    @include row-large;
+  }
+
+  .card1 {
+    @include card-large;
+    .photo1 {
+    width:40vw;
+  }
+  }
+
+  .card2 {
+    @include card-large;
+    .photo2 {
+    width:40vw;
+  }
+  }
+
+  #second-row {
+    @include row-large;
+  }
+
+  .card3 {
+    @include card-large;
+    .photo3 {
+    width:40vw;
+  }
+  }
+
+  .card4 {
+  @include card-large;
+    .photo4 {
+    width:40vw;
+  }
+  }
+}

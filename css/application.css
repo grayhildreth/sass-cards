@@ -165,4 +165,41 @@ h1 {
   border: 3px solid white;
   background-image: url("../img/beach.jpg"); }
 
+@media only screen and (min-width: 640px) {
+  #first-row {
+    width: 100vw;
+    height: auto; }
+
+  .card1 {
+    width: 50vw;
+    height: 100vh;
+    float: left; }
+    .card1 .photo1 {
+      width: 40vw; }
+
+  .card2 {
+    width: 50vw;
+    height: 100vh;
+    float: left; }
+    .card2 .photo2 {
+      width: 40vw; }
+
+  #second-row {
+    width: 100vw;
+    height: auto; }
+
+  .card3 {
+    width: 50vw;
+    height: 100vh;
+    float: left; }
+    .card3 .photo3 {
+      width: 40vw; }
+
+  .card4 {
+    width: 50vw;
+    height: 100vh;
+    float: left; }
+    .card4 .photo4 {
+      width: 40vw; } }
+
 /*# sourceMappingURL=application.css.map */
